@@ -7,7 +7,7 @@ server:
 proxy:
   # 访问目标站点所用代理（除 free-ss）
   enable: false
-  host: 127.0.0.1
+  host: 92.124.213.220
   port: 1080
 
   # 访问 free-ss 时所用代理
