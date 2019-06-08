@@ -1,20 +1,15 @@
-# ========== 自定义 ==========
-# 服务端口号
-server:
-  port: 8080
-
 # 代理配置
 proxy:
   # 访问目标站点所用代理（除 free-ss）
   enable: false
-  host: 173.244.200.155
-  port: 35931
+  host: 127.0.0.1
+  port: 1080
 
   # 访问 free-ss 时所用代理
   free-ss:
     enable: false
-    host: 173.244.200.155
-    port: 35931
+    host: 113.12.72.24
+    port: 3128
     socks: false
 
 
